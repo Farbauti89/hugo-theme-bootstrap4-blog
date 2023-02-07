@@ -83,6 +83,18 @@ h6, .h6 {
   border-left: .3rem solid transparent;
 }
 
+@media (max-width: 992px) {
+  .dropdown-menu {
+    background-color: transparent;
+    border: transparent;
+
+    .dropdown-item {
+      font-weight: 500;
+      color: #cdddeb;
+    }
+  }
+}
+
 
 /*
  * Blog name and description
